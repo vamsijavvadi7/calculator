@@ -1,0 +1,57 @@
+body{
+
+
+  background: wheat;
+}
+
+
+.main{
+	width: 71%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.buton{
+	width: 14%;
+    height: 92%;
+    padding: 2%;
+    border-radius: 49%;
+    margin: 1px;
+    background:#A4CBEC
+}
+.clear{
+	width: 60%;
+    height: 118%;
+}
+.input{
+	    border: black solid 4px;
+    width: 60%;
+    height: 96%;
+    padding: 4%;
+    font-size: 158%;
+    border-radius: 49%;
+    outline: none;
+    margin: 1px;
+}
+input:focus{
+  opacity:0.8;
+  
+}
+@media only screen and (max-width: 527px) {
+  .input {
+    border: black solid 4px;
+    width: 65%;
+    height: 96%;
+    padding: 4%;
+    font-size: 158%;
+    border-radius: 49%;
+
+    margin: 1px;
+  }
+  .clear{
+	width: 65%;
+    height: 118%;
+}
+
+
+}
