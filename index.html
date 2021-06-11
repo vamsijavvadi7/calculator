@@ -54,7 +54,7 @@
         <button class="btn btn-secondary buton" onclick="add('0')">0</button>
          
             
-        <button class="btn btn-secondary buton"></button>
+        <button class="btn btn-secondary buton"  onclick="back()"><-</button>
           
         <button class="btn btn-secondary buton" onclick="result()">=</button>
         
@@ -82,6 +82,10 @@ document.getElementsByClassName("in")[0].value=v;
 function clean(){
     document.getElementsByClassName("in")[0].value="";
 }                        
+function back(){
+var v=eval(document.getElementsByClassName("in")[0].value);
+    document.getElementsByClassName("in")[0].value=v.substring(0,v.length - 1);;
+}
 </script>
 
 
